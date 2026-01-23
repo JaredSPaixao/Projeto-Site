@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(204, 157, 248);
+    background-color: rgb(248, 177, 157);
 
 }
 
@@ -15,4 +15,20 @@ main{
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgb(72, 65, 65);
+}
+
+img{
+    max-width: 200px;
+    height: auto;
+    
+}
+
+.Galeria{
+display: flex;
+  gap: 20px; 
+}
+
+.galeria img {
+  width: 250px;
+  height: auto;
 }
